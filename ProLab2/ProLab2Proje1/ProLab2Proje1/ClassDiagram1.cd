@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProLab2Proje1.Calc">
+    <Position X="9.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAEAAAAAAAAAIAAAAAAAAAACAAAAAAACA=</HashCode>
+      <FileName>Calc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="problemForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.Extensions" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Extension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProLab2Proje1.Greedy">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAACACAAAAAAA=</HashCode>
+      <FileName>Greedy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="problemForm" />
+      <Field Name="rstr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.Maze">
+    <Position X="14.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAkAAAAAAAAAAQACgAAAAAAAAAAAAAAAAQAAAAAAgA=</HashCode>
+      <FileName>Maze.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Nodes" />
+      <Property Name="this[System.Int32, System.Int32]" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.Node">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAEAAAAAQABAAAAAAAA=</HashCode>
+      <FileName>Node.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="prev" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.ProblemForm">
+    <Position X="5.75" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AKQAQgCiGCICYAJJSACAAIlCACFUBAAAFCAQJAiAACY=</HashCode>
+      <FileName>ProblemForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="startPos" />
+      <Field Name="destinationPos" />
+      <Field Name="calc" />
+      <Field Name="greedy" />
+      <Field Name="startForm" />
+      <Field Name="impediment" />
+      <Field Name="rstr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.Program" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProLab2Proje1.StartForm">
+    <Position X="2.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACABAAAAAACQAAACAAAgAAAABAAAAgAAAAA=</HashCode>
+      <FileName>StartForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="problemForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.URL">
+    <Position X="10" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQBAAAAAAAQAAAAAACQAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>URL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="wc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Net.WebClient" Collapsed="true">
+    <Position X="13" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ProLab2Proje1.Impediment">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAQAAEAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Impediment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProLab2Proje1.Raster" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUABABAAEAAAAAAAAQAAAAAAAAAAAAIAQAAAAAAAA=</HashCode>
+      <FileName>Raster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProLab2Proje1.Prob1Raster">
+    <Position X="9.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prob1Raster.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="url" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProLab2Proje1.Prob2Raster">
+    <Position X="12.25" Y="8.25" Width="2.5" />
+    <InheritanceLine Type="ProLab2Proje1.Raster" FixedToPoint="true">
+      <Path>
+        <Point X="12.5" Y="6.312" />
+        <Point X="12.5" Y="7.95" />
+        <Point X="13.708" Y="7.95" />
+        <Point X="13.708" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prob2Raster.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="maze" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="ProLab2Proje1.RemoveWallAction">
+    <Position X="8" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAA=</HashCode>
+      <FileName>Maze.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Wall" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="ProLab2Proje1.NodeState">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAQAAQAAAAIAAAACACAAAAAAAA=</HashCode>
+      <FileName>Maze.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
